@@ -1,0 +1,118 @@
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+        }
+        
+        body {
+            background-image: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+        }
+        
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding: 15px;
+            border-bottom: 0.4px solid #FFF2E7;
+            flex-wrap: wrap;
+        }
+        
+        .img-logo {
+            height: 60px;
+        }
+        
+        .menu {
+            display: flex;
+            gap: 32px;
+        }
+        
+        .link-menu {
+            font-family: 'Roboto', sans-serif;
+            color: #FFF2E7;
+        }
+        
+        main {
+            margin-bottom: 40px;
+        }
+        
+        .conteudo-1 {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        
+        .bot {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        
+        .titulo-1 {
+            font-family: 'Righteous', cursive;
+            font-size: 60px;
+            font-weight: normal;
+            color: #FFF2E7;
+        }
+        
+        .titulo-2 {
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            color: #FFF2E7;
+        }
+        
+        button {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: normal;
+            height: 67px;
+            width: 185px;
+            background-color: #ECD6C4;
+            color: #2F2325;
+            border-radius: 30px;
+            border: none
+        }
+        
+        .img-robo {
+            height: 450px;
+        }
+        
+        .conteudo-2 {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 24px;
+            margin-top: 20px;
+        }
+        
+        .titulo-3 {
+            font-family: 'Righteous', cursive;
+            font-size: 28px;
+            font-weight: normal;
+            color: #FFF2E7;
+            padding-top: 45px;
+            margin-bottom: 16px;
+            border-top: 0.4px solid #FFF2E7;
+        }
+        
+        .descrição {
+            font-family: 'Roboto', sans-serif;
+            font-weight: normal;
+            font-size: 18px;
+            color: #FFF2E7;
+        }
+        
+        footer {
+            padding: 20px;
+            border-top: 0.4px solid #FFF2E7;
+        }
+        
+        .img-footer {
+            height: 60px;
+            display: block;
+            margin: 0 auto;
+        }
